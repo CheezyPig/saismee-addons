@@ -1,0 +1,12 @@
+"Properties"
+	{
+	"Authors"		"saismee"
+	"Tags"			"Portal 1;Test Elements"
+	"Description"	"Wall with hole in it from Portal: Still Alive Advanced Chambers. Used for shooting portals through without use of a special fizzler."
+	"infoURL"		"https:/\/google.co.uk/"
+	"Ent_count"     "0"
+	"Icon"
+		{
+			"0"	"clean/turret.png"
+		}
+	}
