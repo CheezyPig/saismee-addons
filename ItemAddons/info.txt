@@ -1,0 +1,48 @@
+"ID" "SAISMEE_ITEMS"
+"Name" "saismee's Addons (Items)"
+"Prerequisites"
+	{
+	"Package" "VALVE_HAZARDS"
+	}
+"Overrides"
+    {
+    "Item"
+        {
+        "ID" "ITEM_TURRET"
+        "Version"
+            {
+            "ID"    "VER_DEFAULT"
+            "Name"    "saismee"
+            "Styles"
+                {
+                "ANY_STYLE" "turret"
+                }
+            }
+        }
+    }
+"Item"
+    {
+	"ID" "ITEM_SAISMEE_HOLE_WALL"
+	"Version"
+		{
+		"ID"    "VER_DEFAULT"
+		"Name"    "saismee"
+		"Styles"
+			{
+			"ANY_STYLE" "turret"
+			}
+		}
+	}
+"Item"
+    {
+	"ID" "ITEM_SAISMEE_DEATH_ZONE"
+	"Version"
+		{
+		"ID"    "VER_DEFAULT"
+		"Name"    "saismee"
+		"Styles"
+			{
+			"ANY_STYLE" "death_zone"
+			}
+		}
+	}
