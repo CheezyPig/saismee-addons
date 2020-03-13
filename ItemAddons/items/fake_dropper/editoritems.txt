@@ -14,7 +14,7 @@
 				"Palette"
 				{
 					"Tooltip"	"FAKE DROPPER"
-					"Image"		"palette/turret.png"
+					"Image"		"palette/fake_dropper.png"
 					"Position"	"1 6 0"
 				}
 				"Sounds"
@@ -54,6 +54,17 @@
 					"Enable_Cmd" "cube_dropper_model,SetAnimation,item_dropper_open,0,-1"
 					"Disable_Cmd" "cube_dropper_model,SetAnimation,item_dropper_close,0,-1"
 					}
+			}
+			"OccupiedVoxels"
+			{
+				"Voxel"
+				{
+					"Pos"		"0 0 0"
+					"Surface"
+					{
+						"Normal"	"0 0 1"
+					}
+				}
 			}
 			"ConnectionPoints"
 			{
