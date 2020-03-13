@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "48"
+	"mapversion" "51"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "48"
+	"mapversion" "51"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -435,27 +435,6 @@ entity
 }
 entity
 {
-	"id" "1099"
-	"classname" "env_portal_laser"
-	"angles" "90 0 0"
-	"AutoAimEnabled" "1"
-	"drawinfastreflection" "0"
-	"LethalDamage" "0"
-	"model" "models/props/laser_emitter_center.mdl"
-	"NoPlacementHelper" "0"
-	"skin" "0"
-	"StartState" "0"
-	"origin" "0 0 128"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
 	"id" "863"
 	"classname" "point_template"
 	"spawnflags" "2"
@@ -508,8 +487,8 @@ entity
 			"id" "402"
 			"plane" "(38.1822 -62 -14.5033) (-49.4974 -62 -102.183) (-49.4975 62 -102.183)"
 			"material" "METAL/BLACK_WALL_METAL_002D"
-			"uaxis" "[0 1 0 512] 0.25"
-			"vaxis" "[0.707107 0 0.707107 693.041] 0.25"
+			"uaxis" "[0 1 0 512] 0.121094"
+			"vaxis" "[0.707107 0 0.707107 885.724] 0.121092"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -519,8 +498,8 @@ entity
 			"id" "401"
 			"plane" "(-38.1849 -62 -113.495) (49.4948 -62 -25.8158) (49.4947 62 -25.8158)"
 			"material" "METAL/BLACK_WALL_METAL_002D"
-			"uaxis" "[0 1 0 512] 0.25"
-			"vaxis" "[0.707107 0 0.707107 693.041] 0.25"
+			"uaxis" "[0 1 0 512] 0.12"
+			"vaxis" "[0.707107 0 0.707107 886] 0.12"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -530,8 +509,8 @@ entity
 			"id" "400"
 			"plane" "(49.4908 -62 -25.8158) (-38.1849 -62 -113.492) (-49.5053 -62 -102.187)"
 			"material" "METAL/BLACK_WALL_METAL_002D"
-			"uaxis" "[-0.707107 0 -0.707107 330.959] 0.25"
-			"vaxis" "[0.707107 0 -0.707107 330.966] 0.25"
+			"uaxis" "[-0.707107 0 -0.707107 135] 0.12"
+			"vaxis" "[0.707107 0 -0.707107 135] 0.12"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -541,8 +520,8 @@ entity
 			"id" "399"
 			"plane" "(-38.185 62 -113.499) (49.4967 62 -25.8178) (38.1783 62 -14.5072)"
 			"material" "METAL/BLACK_WALL_METAL_002D"
-			"uaxis" "[-0.707107 0 -0.707107 330.98] 0.25"
-			"vaxis" "[0.707107 0 -0.707107 330.986] 0.25"
+			"uaxis" "[-0.707107 0 -0.707107 134.853] 0.12"
+			"vaxis" "[0.707107 0 -0.707107 134.898] 0.12"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -552,8 +531,8 @@ entity
 			"id" "398"
 			"plane" "(-49.4975 62 -102.183) (-49.4974 -62 -102.183) (-38.1848 -62 -113.495)"
 			"material" "METAL/BLACK_WALL_METAL_002D"
-			"uaxis" "[0 1 0 693] 0.25"
-			"vaxis" "[0.707107 0 -0.707107 330.966] 0.25"
+			"uaxis" "[0 1 0 512] 0.12"
+			"vaxis" "[0.707107 0 -0.707107 886] 0.12"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -563,8 +542,8 @@ entity
 			"id" "397"
 			"plane" "(49.4947 62 -25.8158) (49.4947 -62 -25.8158) (38.1861 -62 -14.5072)"
 			"material" "METAL/BLACK_WALL_METAL_002D"
-			"uaxis" "[0 1 0 693] 0.25"
-			"vaxis" "[0.707107 0 -0.707107 330.966] 0.25"
+			"uaxis" "[0 1 0 512] 0.12"
+			"vaxis" "[0.707107 0 -0.707107 886] 0.12"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -582,43 +561,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4000]"
-	}
-}
-entity
-{
-	"id" "115"
-	"classname" "paint_sphere"
-	"alpha_percent" "1.0"
-	"paint_type" "1"
-	"radius" "72"
-	"targetname" "angle_paint_sphere"
-	"origin" "-8 0 -56"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 4500]"
-	}
-}
-entity
-{
-	"id" "141"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "relay"
-	connections
-	{
-		"OnSpawn" "angle_paint_spherePaint0.51"
-	}
-	"origin" "-32 -1.39876e-006 -36"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
 	}
 }
 entity

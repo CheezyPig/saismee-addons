@@ -1,27 +1,28 @@
 "Item"
 	{
-		"Type"		"ITEM_SAISMEE_REFLECTIVE_PANEL"
+		"Type"		"ITEM_SAISMEE_45_PANEL"
+		"ItemClass" "ItemButtonFloor"
 		"Editor"
 		{
 			"SubType"
 			{
-				"Name"		"Reflective Panel"
+				"Name"		"45 Degree Panel"
 				"Model"
 				{
 					"ModelName"		"sentry.3ds"
 				}
 				"Palette"
 				{
-					"Tooltip"	"REFLECTIVE PANEL"
+					"Tooltip"	"45 DEGREE PANEL"
 					"Image"		"palette/turret.png"
 					"Position"	"1 6 0"
 				}
 				"Sounds"
 				{
-					"SOUND_CREATED"					"P2Editor.PlaceTurret"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandTurret"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseTurret"
-					"SOUND_DELETED"					"P2Editor.RemoveTurret"
+					"SOUND_CREATED"					"P2Editor.PlaceOther"
+					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+					"SOUND_DELETED"					"P2Editor.RemoveOther"
 				}
 			}
 			"MovementHandle"		"HANDLE_4_DIRECTIONS"
@@ -33,12 +34,17 @@
 			{
 				"0"
 				{
-					"Name"			"instances/BEE2/clean/reflective_panel.vmf"
+					"Name"			"instances/BEE2/clean/45_panel.vmf"
+					"EntityCount"	"2"
+				}
+				"1"
+				{
+					"Name"			"instances/BEE2/clean/45_panel_non.vmf"
 					"EntityCount"	"2"
 				}
 			}
 
-			"TargetName"		"reflective_panel"
+			"TargetName"		"45_panel"
 			"Offset"		"64 64 64"
 			"Inputs"
 			{

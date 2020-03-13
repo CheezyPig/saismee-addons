@@ -35,14 +35,27 @@
 	}
 "Item"
     {
-	"ID" "ITEM_SAISMEE_REFLECTIVE_PANEL"
+	"ID" "ITEM_SAISMEE_45_PANEL"
 	"Version"
 		{
 		"ID"    "VER_DEFAULT"
 		"Name"    "saismee"
 		"Styles"
 			{
-			"ANY_STYLE" "reflective_panel"
+			"ANY_STYLE" "45_panel"
+			}
+		}
+	}
+"Item"
+    {
+	"ID" "ITEM_SAISMEE_FAKE_DROPPER"
+	"Version"
+		{
+		"ID"    "VER_DEFAULT"
+		"Name"    "saismee"
+		"Styles"
+			{
+			"ANY_STYLE" "fake_dropper"
 			}
 		}
 	}
