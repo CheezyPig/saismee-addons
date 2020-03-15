@@ -15,34 +15,33 @@
             "Name"    "saismee"
             "Styles"
                 {
-                "ANY_STYLE" "turret"
+                "ANY_STYLE" "clean/turret"
                 }
             }
         }
     }
-//"Item"
-//    {
-//	"ID" "ITEM_SAISMEE_HOLE_WALL"
-//	"Version"
-//		{
-//		"ID"    "VER_DEFAULT"
-//		"Name"    "saismee"
-//		"Styles"
-//			{
-//			"ANY_STYLE" "turret"
-//			}
-//		}
-//	}
+"Item"
+    {
+	"ID" "ITEM_SAISMEE_HOLE_WALL"
+	"Version"
+		{
+		"ID"    "VER_DEFAULT"
+		"Styles"
+			{
+			"BEE2_PORTAL_1" "p1/hole_wall"
+			"BEE2_CLEAN" "clean/hole_wall"
+			}
+		}
+	}
 //"Item"
 //    {
 //	"ID" "ITEM_SAISMEE_45_PANEL"
 //	"Version"
 //		{
 //		"ID"    "VER_DEFAULT"
-//		"Name"    "saismee"
 //		"Styles"
 //			{
-//			"ANY_STYLE" "45_panel"
+//			"ANY_STYLE" "clean/45_panel"
 //			}
 //		}
 //	}
@@ -52,10 +51,9 @@
 	"Version"
 		{
 		"ID"    "VER_DEFAULT"
-		"Name"    "saismee"
 		"Styles"
 			{
-			"ANY_STYLE" "fake_dropper"
+			"ANY_STYLE" "clean/fake_dropper"
 			}
 		}
 	}
@@ -65,10 +63,9 @@
 	"Version"
 		{
 		"ID"    "VER_DEFAULT"
-		"Name"    "saismee"
 		"Styles"
 			{
-			"ANY_STYLE" "player_spawn"
+			"ANY_STYLE" "clean/player_spawn"
 			}
 		}
 	}
@@ -78,10 +75,9 @@
 //	"Version"
 //		{
 //		"ID"    "VER_DEFAULT"
-//		"Name"    "saismee"
 //		"Styles"
 //			{
-//			"ANY_STYLE" "death_zone"
+//			"ANY_STYLE" "clean/death_zone"
 //			}
 //		}
 //	}
