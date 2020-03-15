@@ -12,10 +12,23 @@
         "Version"
             {
             "ID"    "VER_SAISMEE"
-            "Name"    "saismee"
+            "Name"  "saismee"
             "Styles"
                 {
                 "ANY_STYLE" "clean/turret"
+                }
+            }
+        }
+	"Item"
+        {
+        "ID" "ITEM_SECONDARY_OBSERVATION_ROOM"
+        "Version"
+            {
+            "ID"    "VER_SAISMEE"
+			"Name"  "saismee"
+            "Styles"
+                {
+                "ANY_STYLE" "obs_room"
                 }
             }
         }
