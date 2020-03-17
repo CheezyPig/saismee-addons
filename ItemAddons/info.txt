@@ -46,11 +46,23 @@
 			}
 		}
 	}
+"Item"
+    {
+	"ID" "ITEM_SAISMEE_ELECTRICITY_FIELD"
+	"Version"
+		{
+		"ID"    "VER_DEFAULT"
+		"Styles"
+			{
+			"ANY_STYLE" "clean/electricity_field"
+			}
+		}
+	}
 //"BrushTemplate"
-	//{
-	//"ID" TEMP_SMALL_HOLE_WALL"
-	//"file" "TEMP_SMALL_HOLE_WALL.vmf"
-	//}
+//	{
+//	"ID" TEMP_COVER"
+//	"file" "TEMP_COVER.vmf"
+//	}
 //"Item"
 //    {
 //	"ID" "ITEM_SAISMEE_45_PANEL"

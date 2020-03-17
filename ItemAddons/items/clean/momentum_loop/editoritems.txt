@@ -14,7 +14,7 @@
 				"Palette"
 				{
 					"Tooltip"	"MOMENTUM LOOP"
-					"Image"		"palette/large_hole_wall.png"
+					"Image"		"palette/momentum_loop.png"
 				}
 				"Sounds"
 				{
