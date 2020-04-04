@@ -1,68 +1,68 @@
 "ID" "SAISMEE_ITEMS"
 "Name" "saismee's Addons (Items)"
 "Prerequisites"
-	{
+{
 	"Package" "VALVE_HAZARDS"
-	}
+}
 "Overrides"
-    {
+{
     "Item"
-        {
+	{
         "ID" "ITEM_TURRET"
         "Version"
-            {
+		{
             "ID"    "VER_SAISMEE"
             "Name"  "saismee"
             "Styles"
-                {
+			{
                 "ANY_STYLE" "clean/turret"
-                }
-            }
-        }
+			}
+		}
+	}
 	"Item"
-        {
+	{
         "ID" "ITEM_SECONDARY_OBSERVATION_ROOM"
         "Version"
-            {
+		{
             "ID"    "VER_SAISMEE"
 			"Name"  "saismee"
             "Styles"
-                {
+			{
                 "ANY_STYLE" "obs_room"
-                }
-            }
-        }
-    }
+			}
+		}
+	}
+}
 "Item"
-    {
+{
 	"ID" "ITEM_SAISMEE_HOLE_WALL"
 	"Version"
-		{
+	{
 		"ID"    "VER_DEFAULT"
 		"Styles"
-			{
+		{
 			"BEE2_PORTAL_1" "p1/hole_wall"
 			"BEE2_CLEAN" "clean/hole_wall"
-			}
 		}
 	}
+}
 "Item"
-    {
+{
 	"ID" "ITEM_SAISMEE_ELECTRICITY_FIELD"
 	"Version"
-		{
+	{
 		"ID"    "VER_DEFAULT"
 		"Styles"
-			{
+		{
 			"ANY_STYLE" "clean/electricity_field"
-			}
 		}
 	}
-//"BrushTemplate"
-//	{
-//	"ID" TEMP_COVER"
-//	"file" "TEMP_COVER.vmf"
-//	}
+}
+"BrushTemplate"
+{
+	"ID" "temp_fake_dropper"
+	"file" "TEMP_COVER.vmf"
+}
 //"Item"
 //    {
 //	"ID" "ITEM_SAISMEE_45_PANEL"
@@ -76,53 +76,65 @@
 //		}
 //	}
 "Item"
-    {
+{
 	"ID" "ITEM_SAISMEE_FAKE_DROPPER"
 	"Version"
-		{
+	{
 		"ID"    "VER_DEFAULT"
 		"Styles"
-			{
+		{
 			"ANY_STYLE" "clean/fake_dropper"
-			}
 		}
 	}
+}
 "Item"
-    {
+{
+	"ID" "ITEM_SAISMEE_VACTUBE_COVER"
+	"Version"
+	{
+		"ID"    "VER_DEFAULT"
+		"Styles"
+		{
+			"ANY_STYLE" "clean/vactube_cover"
+		}
+	}
+}
+"Item"
+{
 	"ID" "ITEM_SAISMEE_PLAYER_SPAWN"
 	"Version"
-		{
+	{
 		"ID"    "VER_DEFAULT"
 		"Styles"
-			{
+		{
 			"ANY_STYLE" "clean/player_spawn"
-			}
 		}
 	}
+}
 "Item"
-    {
+{
 	"ID" "ITEM_SAISMEE_MOMENTUM_LOOP"
 	"Version"
-		{
+	{
 		"ID"    "VER_DEFAULT"
 		"Styles"
-			{
+		{
 			"ANY_STYLE" "clean/momentum_loop"
-			}
 		}
 	}
+}
 "ConfigGroup"
-    {
+{
     "ID"    "SAISMEE_TEXT_POPUP"
     "Name"  "Text Popups"
     "Widget"
-        {
+	{
         "ID"        "TEXT"
         "Label"     "Text"
         "Type"      "String"
         "UseTimer"  "1"
         "Default"
-            {
+		{
             "3"  "Test 3"
             "4"  "Test 4"
             "5"  "Test 5"
@@ -151,20 +163,19 @@
             "28" ""
             "29" ""
             "30" ""
-            }
-        
-        "Tooltip" "Text to be used in *Text Popups*"
-        }
-    }
+		}
+        "Tooltip" "Text to be used in Text Popups"
+	}
+}
 "Item"
-    {
+{
 	"ID" "ITEM_SAISMEE_TEXT_POPUP"
 	"Version"
-		{
+	{
 		"ID"    "VER_DEFAULT"
 		"Styles"
-			{
+		{
 			"ANY_STYLE" "clean/text_popup"
-			}
 		}
 	}
+}

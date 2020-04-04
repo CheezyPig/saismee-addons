@@ -1,102 +1,96 @@
 "Item"
+{
+	"Type"		"ITEM_SAISMEE_FAKE_DROPPER"
+	"Editor"
 	{
-		"Type"		"ITEM_SAISMEE_FAKE_DROPPER"
-		"ItemClass" "ItemButtonFloor"
-		"Editor"
+		"SubType"
 		{
-			"SubType"
+			"Name"		"Fake Dropper"
+			"Model"
 			{
-				"Name"		"Fake Dropper"
-				"Model"
-				{
-					"ModelName"		"sentry.3ds"
-				}
-				"Palette"
-				{
-					"Tooltip"	"FAKE DROPPER"
-					"Image"		"palette/fake_dropper.png"
-					"Position"	"1 6 0"
-				}
-				"Sounds"
-				{
-					"SOUND_CREATED"					"P2Editor.PlaceOther"
-					"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
-					"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
-					"SOUND_DELETED"					"P2Editor.RemoveOther"
-				}
+				"ModelName"		"sentry.3ds"
 			}
-			"MovementHandle"		"HANDLE_4_DIRECTIONS"
-			"InvalidSurface"		""
+			"Palette"
+			{
+				"Tooltip"	"FAKE DROPPER"
+				"Image"		"palette/fake_dropper.png"
+				"Position"	"1 6 0"
+			}
+			"Sounds"
+			{
+				"SOUND_CREATED"					"P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE"		"P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE"		"P2Editor.CollapseOther"
+				"SOUND_DELETED"					"P2Editor.RemoveOther"
+			}
 		}
-		"Exporting"
+		"MovementHandle"		"HANDLE_4_DIRECTIONS"
+		"InvalidSurface"		""
+	}
+	"Exporting"
+	{
+		"Instances"
 		{
-			"Instances"
+			"0"
 			{
-				"0"
-				{
-					"Name"			"instances/BEE2/clean/fake_dropper.vmf"
-					"EntityCount"	"2"
-				}
-				"1"
-				{
-					"Name"			"instances/BEE2/clean/fake_dropper.vmf"
-					"EntityCount"	"2"
-				}
+				"Name"			"instances/BEE2/clean/fake_dropper.vmf"
+				"EntityCount"	"2"
 			}
+		}
 
-			"TargetName"		"fake_dropper"
-			"Offset"		"64 64 64"
-			"Inputs"
+		"TargetName"		"fake_dropper"
+		"Offset"		"64 64 64"
+		"Inputs"
+		{
+			"BEE2"
 			{
-				"BEE2"
-					{
-					"Type" "AND"
-					"Enable_Cmd" "cube_dropper_model,SetAnimation,item_dropper_open,0,-1"
-					"Disable_Cmd" "cube_dropper_model,SetAnimation,item_dropper_close,0,-1"
-					}
+				"Type" "AND"
+				"Enable_Cmd" "cube_dropper_model,SetAnimation,item_dropper_open,0,-1"
+				"Disable_Cmd" "cube_dropper_model,SetAnimation,item_dropper_close,0,-1"
 			}
-			"OccupiedVoxels"
+		}
+		"OccupiedVoxels"
+		{
+			"Voxel"
 			{
-				"Voxel"
+				"Pos"		"0 0 0"
+				"Surface"
 				{
-					"Pos"		"0 0 0"
-					"Surface"
-					{
-						"Normal"	"0 0 1"
-					}
+					"Normal"	"0 0 1"
 				}
 			}
-			"ConnectionPoints"
+		}
+		"ConnectionPoints"
+		{
+			"Point"
 			{
-				"Point"
-					{
-					"Dir"				"1 0 0"
-					"Pos"				"-1 3 0"
-					"SignageOffset"		"-2 2 0"
-					"Priority"          "0"
-					}
-				"Point"
-					{
-					"Dir"				"1 0 0"
-					"Pos"				"-1 4 0"
-					"SignageOffset"		"-2 5 0"
-					"Priority"          "0"
-					}
-					
-				"Point"
-					{
-					"Dir"				"1 0 0"
-					"Pos"				"-1 1 0"
-					"SignageOffset"		"-2 0 0"
-					"Priority"          "0"
-					}
-				"Point"
-					{
-					"Dir"				"1 0 0"
-					"Pos"				"-1 6 0"
-					"SignageOffset"		"-2 7 0"
-					"Priority"          "0"
-					}
+				"Dir"				"1 0 0"
+				"Pos"				"-1 3 0"
+				"SignageOffset"		"-2 2 0"
+				"Priority"          "0"
+			}
+			"Point"
+			{
+				"Dir"				"1 0 0"
+				"Pos"				"-1 4 0"
+				"SignageOffset"		"-2 5 0"
+				"Priority"          "0"
+			}
+				
+			"Point"
+			{
+				"Dir"				"1 0 0"
+				"Pos"				"-1 1 0"
+				"SignageOffset"		"-2 0 0"
+				"Priority"          "0"
+			}
+			"Point"
+			{
+				"Dir"				"1 0 0"
+				"Pos"				"-1 6 0"
+				"SignageOffset"		"-2 7 0"
+				"Priority"          "0"
 			}
 		}
 	}
+}

@@ -1,7 +1,7 @@
 "Properties"
 	{
 	"Authors"		"saismee"
-	"Tags"			"Portal 1;Test Elements"
+	"Tags"			"Portal 2;Test Elements;Custom"
 	"Description"	"Two thin walls with a fizzler in them to make a momentum loop for bots. Place a ceiling and floor"
 	"infoURL"		"https:/\/google.co.uk/"
 	"Ent_count"     "0"
